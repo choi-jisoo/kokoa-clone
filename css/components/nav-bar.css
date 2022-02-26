@@ -18,6 +18,10 @@
   font-size: 22px;
 }
 
+.nav__link {
+  position: relative;
+}
+
 .nav__notification {
   background-color: tomato;
   display: flex;
@@ -28,4 +32,9 @@
   height: 14px;
   color: white;
   font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  right: 5px;
+  left: 15px;
+  top: -5px;
 }
