@@ -18,4 +18,5 @@
 
 .screen-header span {
   margin-left: 25px;
+  position: relative;
 }
