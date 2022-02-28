@@ -30,6 +30,6 @@
   }
 }
 
-.header__icons .fa-gear {
+.header__icons .fa-gear:hover {
   animation: rotateGear 3s linear infinite;
 }
