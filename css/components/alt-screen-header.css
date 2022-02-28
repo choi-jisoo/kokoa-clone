@@ -1,6 +1,6 @@
 .alt-header {
   display: flex;
-  justify-content: center;
+  z-index: 2;
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
@@ -11,10 +11,20 @@
   font-weight: 600;
 }
 
+.alt-header__column {
+  width: 33.3%;
+}
+
 .alt-header__column:first-child {
-  margin-right: auto;
+  display: flex;
+}
+
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
 }
 
 .alt-header__column:last-child {
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
